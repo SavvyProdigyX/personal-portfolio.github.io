@@ -95,11 +95,19 @@ header.sticky{
 
 .article h2{
     font-size:var(--h2-font) ;
+    padding-top: 25px;
 }
 .article p{
     margin-top: 20px;
     font-size: var(--p-font);
     line-height: 30px;
+}
+aside img{
+    margin:0px;
+
+}
+.durasi{
+    padding-top: 0px;
 }
 .footer{
     padding: 22px 16%;
