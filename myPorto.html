@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <article>
 
     <!-- header -->
     <header class="sticky">
@@ -25,21 +26,22 @@
         <ul class="navlist">
             <li><a href="#home">Beranda</a></li>
             <li><a href="#about">Tentang Saya</a></li>
-            <li><a href="#services">Proyek Saya</a></li>
+            <li><a href="#services">Blog Saya</a></li>
             <li><a href="#portofolio">Portofolio</a></li>
             <li><a href="#Kontak">Kontak</a></li>
         </ul>
 
         <div class="top-btnn">
-            <a href="#" class="h-btn">Kontak Saya</a>
+            <a href="#Kontak" class="h-btn">Kontak Saya</a>
         </div>
-        
     </header>
+    
+    <main>
     <!-- hero section -->
     <section class="hero" id="home">
         <div class="main-content">
             <h4>Haloo Semuaa 👋 !</h4>
-            <h1>Saya <span>Deny Faishal Ard</span></h1>
+            <h1>Saya<span>Deny Faishal Ard</span></h1>
             <p>Saya adalah seorang mahasiswa Teknik Informatika di Politeknik Harapan Bersama Tegal.
             Selama perjalanan akademik saya, saya berhasil menyelesaikan proyek-proyek seperti pengembangan aplikasi manajemen kasir yang efisien, situs web e-commerce yang sukses, dan membuat website portofolio menggunakan HTML, CSS, dan JavaScript.
             Tujuan karier saya adalah menjadi seorang pengembang web yang terampil dan mendalami kecerdasan buatan untuk menciptakan solusi teknologi masa depan yang bermanfaat.
@@ -64,7 +66,9 @@
     <!-- tentang saya section -->
     <section class="about" id="about">
         <div class="about-img">
+            <aside>
             <img src="img/about.png" alt="about">
+            </aside>
         </div>
         <div class="about-text">
             <h2>Saya seorang UI/UX <span>Designer</span> <br> & Frontend Web Developer</h2>
@@ -101,40 +105,49 @@
     <!-- Layanan Saya section -->
     <section class="services" id="services">
         <div class="center-text">
-            <h2>Proyek  <span>Saya</span></h2>
+            <h2>Blog <span>Saya</span></h2>
         </div>
 
         <div class="services-content">
             <div class="box">
-                <img src="img/s-1.svg">
-                <h3>UI/UX Design</h3>
-                <p>Desain Antarmuka Pengguna (UI) yang Menarik dan Intuitif.
+                <aside>
+                <img src="img/redhat-1.png">
+                </aside>
+                <h3>Resume Seminar</h3>
+                <p>Unlocking The Future: Embracing The Digital Revolution
+                For A Better Tomorrow
                 </p>
-                <a href="#">
-                    Lihat Sekarang
+                <a href="blogresume.html">
+                    Baca Selengkapnya
                     <i class="ri-arrow-right-line"></i>
                 </a>
             </div>
         
 
             <div class="box">
-                <img src="img/s-2.svg">
-                <h3>Web Develop</h3>
-                <p>Pengembangan Situs Web Kustom untuk ide bisnis mu.
+                <aside>
+                    <img src="img/DIENG-2.jpg.webp">
+                </aside>
+                
+                <h3>Dieng Plateau</h3>
+                <p>Informasi mengenai wisata dieng , wonosobo , Jawa Tengah
                 </p>
                 <a href="#">
-                    Lihat Sekarang
+                    Baca Selengkapnya
                     <i class="ri-arrow-right-line"></i>
                 </a>
             </div>
 
             <div class="box">
-                <img src="img/s-3.svg">
-                <h3>Web App Develop</h3>
-                <p> Pengembangan Prototipe dan MVP untuk Uji Ide Bisnis.
+                <aside>
+                    <img src="img/htmlcssjs.jpg">
+                </aside>
+                
+                <h3>HTML , CSS , JS</h3>
+                <p> Belajar membuat website dengan HTML , CSS dan JavaScript
                 </p>
                 <a href="#">
-                    Lihat Sekarang
+                    Baca Selengkapnya
                     <i class="ri-arrow-right-line"></i>
                 </a>
             </div>
@@ -147,7 +160,10 @@
         </div>
         <div class="portofolio-content">
             <div class="row">
-                <img src="img/port-1.jpg">
+                <aside>
+                    <img src="img/port-1.jpg">
+                </aside>
+                
                 <div class="main-row">
                     <div class="row-text">
                         <h5>UI & UX Design</h5>
@@ -160,7 +176,9 @@
             </div>
 
             <div class="row">
+                <aside>
                 <img src="img/port-2.jpg">
+                </aside>
                 <div class="main-row">
                     <div class="row-text">
                         <h5>Website Development</h5>
@@ -174,7 +192,10 @@
 
 
             <div class="row">
-                <img src="img/port-3.jpg">
+                <aside>
+                    <img src="img/port-3.jpg">
+                </aside>
+                
                 <div class="main-row">
                     <div class="row-text">
                         <h5>Website Development</h5>
@@ -204,7 +225,9 @@
             </form>
         </div>
     </section>
+</main>
 
+<footer>
     <div class="footer">
         <div class="copyright">
             <p>2023 Deny Faishal Ard, All Right Reserved.</p>
@@ -213,9 +236,11 @@
             <i class="ri-arrow-up-s-fill"></i>
         </a>
     </div>
+</footer>
     <!-- js link -->
     <script src="/js/script.js">
 
     </script>
+</article>
 </body>
 </html>
