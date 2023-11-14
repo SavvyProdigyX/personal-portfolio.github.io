@@ -272,6 +272,10 @@ header.sticky{
 .box:hover{
     border: 1px solid var(--main-color);
     transform: translateY(-5px) scale(1.03);
+    -webkit-transform: translateY(-5px) scale(1.03);
+    -moz-transform: translateY(-5px) scale(1.03);
+    -ms-transform: translateY(-5px) scale(1.03);
+    -o-transform: translateY(-5px) scale(1.03);
 }
 .portofolio{
     background: var(--second-bg-color);
